@@ -1,0 +1,40 @@
+/* common shared styles */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+/* header related styles */
+.img {
+    background-size: contain;
+    margin: 30px 50px 50px 100px;
+    border-radius: 16px;
+    background-color: rgba(7, 2, 17, 0.00);
+}
+
+.first-header-text {
+    margin-top: -500px;
+    padding: 17px 50px 30px 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.secnod-header-text {
+    padding: 50px 100px;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    /* line-height: 95px; */
+}
+
+.off {
+    margin-top: 100px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
