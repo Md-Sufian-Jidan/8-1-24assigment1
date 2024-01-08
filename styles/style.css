@@ -35,6 +35,10 @@ body {
     font-weight: 900;
 }
 
+.section2 {
+    margin: 300px 200px;
+}
+
 .section-title {
     margin-top: 200px;
     margin-bottom: 0px;
@@ -67,29 +71,117 @@ img {
 }
 
 /* main section related style  */
-.vectorrr {
-    margin-top: 850px; 
-   width: 90%;
-   height: 600px;
-   background-image: url('../B9A1-New-Year-New-Mission-main/resources/Vectorrr.png');
-}
-/* footer section style  */
-.footer-section{
-    margin-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
+.banner {
+    height: 600px;
     width: 90%;
+    background-image: url('../B9A1-New-Year-New-Mission-main/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    margin-top: 900px;
+    margin-left: 70px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.first-text {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 130px 130px 0 130px;
+}
+
+.secnod-text {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 130px;
+}
+
+.third-text {
+    color: #FFF;
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px 130px;
+}
+
+.banner-pic {
+    padding: 100px 130px;
+}
+
+.heading {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+}
+
+.join-now {
+    margin: 70px;
+    height: 450px;
+    width: 90%;
+    fill: linear-gradient(180deg, rgba(255, 0, 179, 0.1) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+}
+
+.primary-color {
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.join-now-title {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.join-button {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* footer section style  */
+.footer-section {
+    margin-top: 50px;
+    width: 100%;
     height: 600px;
     background: #070211;
     display: flex;
     justify-content: space-between;
 }
-.footer-title{
+
+.footer-section-first {
     color: white;
+    display: flex;
+    justify-content: space-between;
 }
-.call , .website{
+
+.footer-img {
     height: 24px;
     width: 24px;
-    margin-left: 0px;
-    margin-right: 0px;
+}
+
+.footer-img-section {
+    display: flex;
+    justify-content: space-between;
 }
