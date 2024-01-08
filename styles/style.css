@@ -244,23 +244,26 @@ img {
 
 .searchbar {
     display: block;
-    width: 600px;
     margin: auto;
     text-align: center;
     padding-top: 30px;
 }
+.email-input,.email-button{
+    border: none;
+}
 
 .email-input {
     height: 70px;
-    /* width: 50%; */
+    width: 300px;
     border-radius: 50px 0 0 50px;
     background: #FFF;
-    border: none;
+    margin-right: 0px;
 }
 
 .email-button {
     height: 72px;
-    /* width: 25%; */
+    width: 150px;
+    padding-left: 0px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     color: #FFF;
@@ -268,7 +271,6 @@ img {
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
-    border: none;
 }
 
 /* footer related style */
