@@ -5,16 +5,21 @@ body {
 }
 
 /* header related styles */
-.img {
+.header {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px;
+    width: 90%;
+    background-image: url('../B9A1-New-Year-New-Mission-main/resources/Banner Image.png');
+    background-repeat: no-repeat;
     background-size: contain;
-    margin: 30px 50px 50px 100px;
     border-radius: 16px;
-    background-color: rgba(7, 2, 17, 0.00);
 }
 
 .first-header-text {
-    margin-top: -500px;
-    padding: 17px 50px 30px 50px;
+    margin-bottom: 0px;
+    padding: 90px 0px 0px 0px;
     color: #FFF;
     text-align: center;
     font-size: 32px;
@@ -22,19 +27,69 @@ body {
 }
 
 .secnod-header-text {
-    padding: 50px 100px;
+    margin-top: 0px;
+    padding: 50px 200px 0px 200px;
     color: #FFF;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
-    /* line-height: 95px; */
 }
 
-.off {
-    margin-top: 100px;
+.section-title {
+    margin-top: 200px;
+    margin-bottom: 0px;
     color: #F00;
     text-align: center;
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
+}
+
+.section-description {
+    color: #F00;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.categories {
+    color: #070211;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* main section related style  */
+.vectorrr {
+    margin-top: 850px; 
+   width: 90%;
+   height: 600px;
+   background-image: url('../B9A1-New-Year-New-Mission-main/resources/Vectorrr.png');
+}
+/* footer section style  */
+.footer-section{
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 600px;
+    background: #070211;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    color: white;
+}
+.call , .website{
+    height: 24px;
+    width: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
