@@ -178,14 +178,17 @@ img {
     display: flex;
     align-items: center;
 }
-.first{
+
+.first {
     padding: 50px;
 }
+
 .discount-img {
     display: flex;
     margin: 0 50px;
+    padding: 0;
     border: 10px solid red;
-    border-radius: 50% ;
+    border-radius: 50%;
 }
 
 .best-offer {
@@ -206,11 +209,47 @@ img {
     font-size: 20px;
     font-weight: 400;
 }
-.year{
+
+.year {
     color: #F00;
-font-size: 48px;
-font-weight: 700;
+    font-size: 48px;
+    font-weight: 700;
 }
+.what-is-section{
+    background: #FFF;
+    margin: 30px 70px;
+}
+.what-is{
+    text-align: center;
+    margin: 0px;
+}
+.rectangle-image{
+    background-image: url(../B9A1-New-Year-New-Mission-main/resources/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.circle{
+    margin: 0px 250px;
+    padding: 50px 0 50px 100px;
+}
+.rectangle{
+    width: 100%;
+    height: 100px;
+    padding-top: 0px;
+}
+.sale {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holidays {
+    color: #F00;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
 .gifts-section {
     margin: 50px;
     margin-left: 0px;
