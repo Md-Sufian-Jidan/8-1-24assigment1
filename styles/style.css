@@ -16,12 +16,14 @@ body {
     background-size: contain;
     border-radius: 16px;
 }
-.section{
+
+.section {
     height: 545px;
     background: rgba(7, 2, 17, 0.5);
     border-radius: 16px;
 
 }
+
 .first-header-text {
     margin-bottom: 0px;
     padding: 90px 0px 0px 0px;
@@ -86,7 +88,8 @@ img {
     display: flex;
     border-radius: 5px;
 }
-.text{
+
+.text {
     background: rgba(7, 2, 17, 0.1);
 }
 
@@ -169,6 +172,45 @@ img {
     text-transform: uppercase;
 }
 
+/* discount-section related style */
+.discount-section {
+    margin: 30px 70px;
+    display: flex;
+    align-items: center;
+}
+.first{
+    padding: 50px;
+}
+.discount-img {
+    display: flex;
+    margin: 0 50px;
+    border: 10px solid red;
+    border-radius: 50% ;
+}
+
+.best-offer {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.coming {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.discount-discription {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+.year{
+    color: #F00;
+font-size: 48px;
+font-weight: 700;
+}
 .gifts-section {
     margin: 50px;
     margin-left: 0px;
@@ -248,7 +290,9 @@ img {
     text-align: center;
     padding-top: 30px;
 }
-.email-input,.email-button{
+
+.email-input,
+.email-button {
     border: none;
 }
 
